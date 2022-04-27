@@ -1,3 +1,36 @@
 .img-height {
   height: 15rem;
 }
+/* 
+.nav a {
+  color: red;
+} */
+
+.nav {
+  font-size: 3.5rem;
+}
+
+
+@media screen and (max-width:992px) {
+
+  .btn {
+    background-color: orange;
+  }
+
+  .nav {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .btn {
+    background-color: green;
+  }
+
+  .nav {
+    font-size: 1rem;
+  }
+
+}
